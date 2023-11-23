@@ -6,6 +6,6 @@
 ## Reference
 
 * [API Reference](reference/api-reference/README.md)
-  * [Pets](reference/api-reference/pets.md)
+  * [Contests](reference/api-reference/contests.md)
   * [Users](reference/api-reference/users.md)
 * [Page](reference/page.md)
