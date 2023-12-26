@@ -148,22 +148,7 @@ You will get the following JSON object as a response.
             "startTimeUnix": 1705775400,
             "duration": 1440
         },
-        {
-            "host": "geeksforgeeks",
-            "name": "Job-A-Thon 29 Hiring Challenge",
-            "vanity": "job-a-thon-29-hiring-challenge",
-            "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-29-hiring-challenge",
-            "startTimeUnix": 1705847400,
-            "duration": 150
-        },
-        {
-            "host": "geeksforgeeks",
-            "name": "GATE Data Science and Artificial Intelligence 2 - All India Mock 2024",
-            "vanity": "all-india-mock-gate-mlai-ii",
-            "url": "https://practice.geeksforgeeks.org/contest/all-india-mock-gate-mlai-ii",
-            "startTimeUnix": 1706380200,
-            "duration": 2880
-        }
+        ...
     ]
 }
 ```
@@ -267,70 +252,7 @@ You will get the following JSON object as the response:&#x20;
             "startTimeUnix": 1704292200,
             "duration": 120
         },
-        {
-            "host": "geeksforgeeks",
-            "name": "GFG Weekly Coding Contest - 136",
-            "vanity": "gfg-weekly-coding-contest-136",
-            "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-coding-contest-136",
-            "startTimeUnix": 1704634200,
-            "duration": 90
-        },
-        {
-            "host": "codechef",
-            "name": "Starters 116",
-            "vanity": "start116",
-            "url": "https://www.codechef.com/START116",
-            "startTimeUnix": 1704897000,
-            "duration": 120
-        },
-        {
-            "host": "codechef",
-            "name": "Starters 117",
-            "vanity": "start117",
-            "url": "https://www.codechef.com/START117",
-            "startTimeUnix": 1705501800,
-            "duration": 120
-        },
-        {
-            "host": "geeksforgeeks",
-            "name": "GATE CS 2024 - All India Mock 2",
-            "vanity": "all-india-mock-gate-csit-ii",
-            "url": "https://practice.geeksforgeeks.org/contest/all-india-mock-gate-csit-ii",
-            "startTimeUnix": 1705775400,
-            "duration": 1440
-        },
-        {
-            "host": "geeksforgeeks",
-            "name": "Job-A-Thon 29 Hiring Challenge",
-            "vanity": "job-a-thon-29-hiring-challenge",
-            "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-29-hiring-challenge",
-            "startTimeUnix": 1705847400,
-            "duration": 150
-        },
-        {
-            "host": "codechef",
-            "name": "Starters 118",
-            "vanity": "start118",
-            "url": "https://www.codechef.com/START118",
-            "startTimeUnix": 1706106600,
-            "duration": 120
-        },
-        {
-            "host": "geeksforgeeks",
-            "name": "GATE Data Science and Artificial Intelligence 2 - All India Mock 2024",
-            "vanity": "all-india-mock-gate-mlai-ii",
-            "url": "https://practice.geeksforgeeks.org/contest/all-india-mock-gate-mlai-ii",
-            "startTimeUnix": 1706380200,
-            "duration": 2880
-        },
-        {
-            "host": "codechef",
-            "name": "Starters 119",
-            "vanity": "start119",
-            "url": "https://www.codechef.com/START119",
-            "startTimeUnix": 1706711400,
-            "duration": 120
-        }
+        ...
     ]
 }
 ```
