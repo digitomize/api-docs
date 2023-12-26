@@ -1,7 +1,9 @@
 # Table of contents
 
 * [Welcome to Digitomize](README.md)
-* [Quick Start](quick-start.md)
+* [Quick Start](quick-start/README.md)
+  * [Frontend Setup](quick-start/frontend-setup.md)
+  * [Backend Setup](quick-start/backend-setup.md)
 
 ## Reference
 

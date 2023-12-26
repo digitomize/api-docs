@@ -35,8 +35,8 @@ You can interact with the platform [here](https://www.digitomize.com/).
 
 Jump in to the quick start docs and get your local development environment set up:
 
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
+{% content-ref url="quick-start/" %}
+[quick-start](quick-start/)
 {% endcontent-ref %}
 
 ## Want to explore the Digitomize API?
