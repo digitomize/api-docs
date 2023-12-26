@@ -1,20 +1,47 @@
-# Welcome!
+---
+description: >-
+  Digitomize is a platform designed for developers to explore upcoming coding
+  contests and create profiles where they can showcase their skills and
+  achievements.
+---
 
-## Welcome to MyAPI
+# Welcome to Digitomize
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+We aim to create a space for developers to elevate their development journey by discovering programming contests tailored to their skills and showcasing their expertise using a dynamic profile.
 
-## Want to jump right in?
+Digitomize offers the following features:
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
+* **Programming Contests**: Explore upcoming coding contests from platforms like LeetCode, Codeforces, CodeChef, and more.&#x20;
+* **User Profiles**: Create your developer portfolio by providing user handles for different coding platforms. Digitomize dynamically fetches and displays your updated ratings, achievements, and coding history.
+
+Digitomize is developed using the following technologies:
+
+**Frontend**
+
+* React.js
+* Vite
+* Tailwind (Daisyui, Material UI, Flowbite)
+
+**Backend**
+
+* Node.js
+* Express
+* NPM
+* MongoDB
+
+You can interact with the platform [here](https://www.digitomize.com/).
+
+## Ready to get started?
+
+Jump in to the quick start docs and get your local development environment set up:
 
 {% content-ref url="quick-start.md" %}
 [quick-start.md](quick-start.md)
 {% endcontent-ref %}
 
-## Want to deep dive?
+## Want to explore the Digitomize API?
 
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
+Start exploring our API reference to get an idea of everything that's possible with the Digitomize API:
 
 {% content-ref url="reference/api-reference/" %}
 [api-reference](reference/api-reference/)

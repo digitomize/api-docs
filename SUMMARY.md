@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [Welcome to Digitomize](README.md)
 * [Quick Start](quick-start.md)
 
 ## Reference
