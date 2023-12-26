@@ -1,58 +1,143 @@
+---
+description: >-
+  In this page, you will learn how to use the Digitomize API to get all
+  programming contests
+---
+
 # Contests
 
-## Get All Contests
+The following queries are covered in this page:
 
-{% swagger baseUrl="https://v2api.digitomize.com" method="post" path="/contests" summary="Get all contests" %}
+* GET all contests
+* GET all contests by a specific host
+* GET a specific contest based on the vanity string
+
+Let's get started.
+
+{% swagger method="get" path="" baseUrl="https://www.v2api.digitomize.com/contests" summary="Get All The Contests" %}
 {% swagger-description %}
-This endpoint allows you to retrieve information about various programming contests. You can filter contests based on the `host` and `vanity` query parameters.
+This API route allows you to get all the programming contests available in  Digitomize
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="host" required="false" type="string" %}
-Enter one or more hosting platforms to filter contests. Separate multiple platforms with commas.
-{% endswagger-parameter %}
+{% swagger-response status="200: OK" description="Successful Request" %}
+This is the response you will get when your request is successful.
 
-{% swagger-parameter in="body" name="vanity" required="false" type="string" %}
-Enter the unique vanity string associated with a specific contest to retrieve details about that contest.
-{% endswagger-parameter %}
+The response body will have the following format:
 
-{% swagger-response status="200" description="OK" %}
 ```json
 {
-  "total": 0,
-  "results": [
-    {
-      "url": "string",
-      "host": "string",
-      "name": "string",
-      "vanity": "string",
-      "duration": 0,
-      "startTimeUnix": 0
-    }
-  ]
+    "total" : integer,
+    "results": [
+        {
+            "host": string,
+            "name": string,
+            "vanity": string,
+            "url": string,
+            "startTimeUnix": timestamp,
+            "duration": integer
+        }
+    ]
 }
 ```
+
+
 {% endswagger-response %}
 
-{% swagger-response status="500: Internal Server Error" description="Internal Server Error" %}
+{% swagger-response status="500: Internal Server Error" description="Server Error" %}
 ```json
+// Response Body
 {
-  "error": "string",
-  "message": "string"
+    "error": string,
+    "message": string
 }
 ```
 {% endswagger-response %}
 {% endswagger %}
 
-{% hint style="info" %}
-**Good to know:** This API method was created using the API Method block, it's how you can build out an API method documentation from scratch. Have a play with the block and you'll see you can do some nifty things like add and reorder parameters, document responses, and give your methods detailed descriptions.
-{% endhint %}
+{% swagger method="get" path="" baseUrl="https://www.v2api.digitomize.com/contests" summary="Get all the contests by a specific host" %}
+{% swagger-description %}
+This API route allows you to get all the programming contests available in  Digitomize by a specific host
+{% endswagger-description %}
 
-## Updating a pet
+{% swagger-parameter in="query" name="host" %}
+Specify an event host
+{% endswagger-parameter %}
 
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/pet" method="put" %}
-[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
+{% swagger-response status="200: OK" description="Successful Request" %}
+This is the response you will get when your request is successful.
+
+The response body will have the following format:
+
+```json
+{
+    "total" : integer,
+    "results": [
+        {
+            "host": string,
+            "name": string,
+            "vanity": string,
+            "url": string,
+            "startTimeUnix": timestamp,
+            "duration": integer
+        }
+    ]
+}
+```
+
+
+{% endswagger-response %}
+
+{% swagger-response status="500: Internal Server Error" description="Server Error" %}
+```json
+// Response Body
+{
+    "error": string,
+    "message": string
+}
+```
+{% endswagger-response %}
 {% endswagger %}
 
-{% hint style="info" %}
-**Good to know:** This API method was auto-generated from an example Swagger file. You'll see that it's not editable – that's because the contents are synced to a URL! Any time the linked file changes, the documentation will change too.
-{% endhint %}
+{% swagger method="get" path="" baseUrl="https://www.v2api.digitomize.com/contests" summary="Get a specific contest" %}
+{% swagger-description %}
+This API route allows you to get all the programming contests available in  Digitomize
+{% endswagger-description %}
+
+{% swagger-parameter in="query" name="vanity" %}
+A unique string for an event
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Successful Request" %}
+This is the response you will get when your request is successful.
+
+The response body will have the following format:
+
+```json
+{
+    "total" : integer,
+    "results": [
+        {
+            "host": string,
+            "name": string,
+            "vanity": string,
+            "url": string,
+            "startTimeUnix": timestamp,
+            "duration": integer
+        }
+    ]
+}
+```
+
+
+{% endswagger-response %}
+
+{% swagger-response status="500: Internal Server Error" description="Server Error" %}
+```json
+// Response Body
+{
+    "error": string,
+    "message": string
+}
+```
+{% endswagger-response %}
+{% endswagger %}
