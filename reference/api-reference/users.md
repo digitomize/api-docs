@@ -1,4 +1,4 @@
-# Users
+# 👥 Users
 
 {% hint style="info" %}
 **Good to know:** All the methods shown below are synced to an example Swagger file URL and are kept up to date automatically with changes to the API.

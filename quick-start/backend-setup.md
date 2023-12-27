@@ -2,7 +2,7 @@
 description: Setting up the backend locally
 ---
 
-# Backend Setup
+# 🧑💻 Backend Setup
 
 Once you have cloned the [Digitomize repository](https://github.com/digitomize/digitomize.git) and installed the dependencies in the root directory, you can take the following steps to setup the backend of the project.&#x20;
 
@@ -77,4 +77,4 @@ npm start
 
 You are all setup. 🎉
 
-To run the application, start both the frontend and backend by following [these instructions](./#running-the-application).
+To run the application, start both the frontend and backend by following [these instructions](../quick-start.md#running-the-application).

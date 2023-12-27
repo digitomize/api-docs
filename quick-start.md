@@ -1,7 +1,3 @@
----
-description: Instructions on how to setup the local development environment
----
-
 # Quick Start
 
 In this page, there will be instructions on how to locally setup your development environment
@@ -32,7 +28,7 @@ npm install
 
 Use the following guides to help you setup and configure all the requirements.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td>Frontend Setup</td><td></td><td><a href="frontend-setup.md">frontend-setup.md</a></td></tr><tr><td></td><td>Backend Setup</td><td></td><td><a href="backend-setup.md">backend-setup.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td>Frontend Setup</td><td></td><td><a href="quick-start/frontend-setup.md">frontend-setup.md</a></td></tr><tr><td></td><td>Backend Setup</td><td></td><td><a href="quick-start/backend-setup.md">backend-setup.md</a></td></tr></tbody></table>
 
 ### Running the Application
 

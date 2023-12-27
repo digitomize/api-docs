@@ -1,10 +1,3 @@
----
-description: >-
-  Digitomize is a platform designed for developers to explore upcoming coding
-  contests and create profiles where they can showcase their skills and
-  achievements.
----
-
 # Welcome to Digitomize
 
 We aim to create a space for developers to elevate their development journey by discovering programming contests tailored to their skills and showcasing their expertise using a dynamic profile.
@@ -35,8 +28,8 @@ You can interact with the platform [here](https://www.digitomize.com/).
 
 Jump in to the quick start docs and get your local development environment set up:
 
-{% content-ref url="quick-start/" %}
-[quick-start](quick-start/)
+{% content-ref url="quick-start.md" %}
+[quick-start.md](quick-start.md)
 {% endcontent-ref %}
 
 ## Want to explore the Digitomize API?

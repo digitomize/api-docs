@@ -2,7 +2,7 @@
 description: Setting up the frontend locally
 ---
 
-# Frontend Setup
+# 💻 Frontend Setup
 
 Once you have cloned the [Digitomize repository](https://github.com/digitomize/digitomize.git) and installed the dependencies in the root directory. You can take the following steps to configure the frontend of the application.
 
