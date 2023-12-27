@@ -77,4 +77,4 @@ npm start
 
 You are all setup. 🎉
 
-To run the application, start both the frontend and backend by following [these instructions](../quick-start.md#running-the-application).
+To run the application, start both the frontend and backend by following [these instructions](./#running-the-application).

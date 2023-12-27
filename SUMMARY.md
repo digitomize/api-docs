@@ -1,9 +1,12 @@
 # Table of contents
 
 * [Welcome to Digitomize](README.md)
-* [Quick Start](quick-start.md)
-  * [💻 Frontend Setup](quick-start/frontend-setup.md)
-  * [🧑💻 Backend Setup](quick-start/backend-setup.md)
+* [Local Development Setup](local-development-setup/README.md)
+  * [💻 Frontend Setup](local-development-setup/frontend-setup.md)
+  * [🧑💻 Backend Setup](local-development-setup/backend-setup.md)
+* [Contribute to Digitomize](contribute-to-digitomize/README.md)
+  * [Code of Conduct](contribute-to-digitomize/code-of-conduct.md)
+  * [Contact Digitomize](contribute-to-digitomize/contact-digitomize.md)
 
 ## Reference
 
