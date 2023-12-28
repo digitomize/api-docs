@@ -153,8 +153,6 @@ You will get the following JSON object as a response.
 }
 ```
 
-You can test this endpoint using any of the [available event hosts](contests.md#event-hosts-in-digitomize).
-
 {% swagger method="get" path=" " baseUrl="https://www.v2api.digitomize.com/contests" summary="Multiple hosts" expanded="true" %}
 {% swagger-description %}
 This API route allows you to get all the programming contests available in  Digitomize by multiple event hosts
@@ -257,8 +255,6 @@ You will get the following JSON object as the response:&#x20;
 }
 ```
 
-You can add more event hosts from the [list of available hosts](contests.md#event-hosts-in-digitomize).
-
 {% swagger method="get" baseUrl="https://www.v2api.digitomize.com/contests" summary="Specific contest" expanded="true" path=" " %}
 {% swagger-description %}
 This API route allows you to get a specific programming contest based on the vanity string
@@ -324,3 +320,5 @@ You will get the following JSON object as a response:
     ]
 }
 ```
+
+Feel free to use this API. If you have any issues, you can raise it in [our Discord channel](https://discord.com/invite/bsbBytBqBc).
