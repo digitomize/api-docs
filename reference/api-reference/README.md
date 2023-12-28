@@ -15,9 +15,11 @@ The Digitomize API allows you to:
 
 ### Base URL
 
-The Digitomize API is hosted on the following URL:
+The Digitomize API is hosted on the following URLs:
 
-[https://www.v2api.digitomize.com](https://www.v2api.digitomize.com)
+{% embed url="https://www.v2api.digitomize.com" %}
+
+{% embed url="https://www.api.digitomize.com" %}
 
 The Digitomize API does not need any authentication. Therefore, you do not require an API key to interact with it.
 
