@@ -6,18 +6,18 @@ description: This endpoint allows you to access Digitomize's leaderboard
 
 You can use the endpoint to perform the following queries:
 
-* [retrieve the leaderboard](leaderboard.md#the-leaderboard)
-* [filter the leaderboard by platform](leaderboard.md#filter-by-platform)
-* [filter the leaderboard by username](leaderboard.md#filter-by-username)
+* [Retrieve the leaderboard](leaderboard.md#the-leaderboard)
+* [Filter the leaderboard by platform](leaderboard.md#filter-by-platform)
+* [Filter the leaderboard by username](leaderboard.md#filter-by-username)
 
 This endpoint gives you all the details on the leaderboard including,
 
-* the total number of users
-* the top 3 users&#x20;
-* the number of users per page
-* the current page
-* the total number of pages
-* the leaderboard
+* total number of users
+* top 3 users&#x20;
+* number of users per page
+* current page
+* total number of pages
+* &#x20;leaderboard
 
 {% swagger method="get" path=" " baseUrl="https://www.v2api.digitomize.com/user/leaderboard" summary="The leaderboard" expanded="true" %}
 {% swagger-description %}
