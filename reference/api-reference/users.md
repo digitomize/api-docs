@@ -1,42 +1,98 @@
 ---
-description: The users endpoint and how you can use it
+description: The user profile endpoint
 ---
 
 # 👥 Users
 
-The users endpoint allows you to make the following queries:
+This users endpoint allows you to retrieve data about Digitomize's users.&#x20;
 
-* [creating a new user](users.md#create-a-new-user)
-* updating a user's details
-* retrieve a user's dashboard
-* retrieve a user's profile
+You can get the following data about a Digitomize user:
 
-{% hint style="info" %}
-**Good to know:** All the methods shown below are synced to an example Swagger file URL and are kept up to date automatically with changes to the API.
-{% endhint %}
+* personal details
+* social links
+* ratings
+* github
 
-## User actions
-
-{% swagger method="post" path=" " baseUrl="https://www.v2api.digitomize.com /user/signup" summary="Create a new user" %}
+{% swagger method="get" path="" baseUrl="https://www.v2api.digitomize.com /user/signup" summary="Retrieve user data" expanded="true" %}
 {% swagger-description %}
 This endpoint allows you to create a new user in the Digitomize platform
 {% endswagger-description %}
 
-{% swagger-parameter in="body" %}
-
+{% swagger-parameter in="path" name="username" type="String" required="true" %}
+Digitomize username
 {% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="User found" %}
+
+{% endswagger-response %}
+
+{% swagger-response status="404: Not Found" description="User not found" %}
+```json
+{
+    "message":"User not found",
+    "error":"User not found"
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="500: Internal Server Error" description="Server Error" %}
+
+{% endswagger-response %}
 {% endswagger %}
 
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/user/logout" method="get" %}
-[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
-{% endswagger %}
+For example,
 
-## Creating users
+The request URL is [https://www.v2api.digitomize.com/user/profile/priyanshutrivedi818](https://www.v2api.digitomize.com/user/profile/priyanshutrivedi818)
 
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/user/createWithList" method="post" %}
-[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
-{% endswagger %}
+The response will be:
 
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/user/createWithArray" method="post" %}
-[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
-{% endswagger %}
+```json
+{
+    "personal_data": {
+        "username": "priyanshutrivedi818",
+        "name": "Priyanshu Trivedi",
+        "picture": "https://lh3.googleusercontent.com/a/ACg8ocKHINLEGHdSrFO_D1TqPMqX3UhLKuYfYKNCN5QCiU-3=s96-c",
+        "email_verified": true,
+        "email": "priyanshutrivedi818@gmail.com",
+        "bio": null,
+        "dateOfBirth": null,
+        "phoneNumber": null,
+        "role": 1,
+        "skills": []
+    },
+    "github": {
+        "data": null
+    },
+    "social": {
+        "linkedin": null,
+        "instagram": null,
+        "twitter": null
+    },
+    "ratings": {
+        "digitomize_rating": 1667,
+        "codechef": {
+            "username": "priyanshu_triv",
+            "rating": 2005,
+            "attendedContestsCount": 53,
+            "badge": "5 star",
+            "fetchTime": 1703946843104
+        },
+        "leetcode": {
+            "username": "priyanshu_triv",
+            "rating": 2060,
+            "attendedContestsCount": 28,
+            "badge": "Knight",
+            "fetchTime": 1703946843104
+        },
+        "codeforces": {
+            "username": null,
+            "rating": 1667,
+            "attendedContestsCount": null,
+            "badge": null,
+            "fetchTime": 1703946843104
+        }
+    }
+}
+```
+
+Feel free to use this API. If you have any issues, you can raise it in [our Discord channel](https://discord.com/invite/bsbBytBqBc).

@@ -2,7 +2,7 @@
 description: Digitomize's contact details
 ---
 
-# Contact Digitomize
+# ☎ Contact Digitomize
 
 ## Contact Information
 

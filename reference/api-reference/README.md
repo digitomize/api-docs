@@ -2,7 +2,7 @@
 description: Information about the Digitomize API
 ---
 
-# API Reference
+# 🗝 API Reference
 
 ### Overview
 

@@ -2,7 +2,7 @@
 description: Digitomize's Code of Conduct
 ---
 
-# Code of Conduct
+# 🤝 Code of Conduct
 
 ## Contributor Covenant Code of Conduct
 

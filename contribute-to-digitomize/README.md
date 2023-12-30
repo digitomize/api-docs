@@ -4,7 +4,7 @@ description: >-
   here
 ---
 
-# Contribute to Digitomize
+# 🚀 Contribute to Digitomize
 
 Hey! Thanks for considering contributing to Digitomize. We're excited to have you contribute.&#x20;
 

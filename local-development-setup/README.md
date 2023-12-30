@@ -1,4 +1,4 @@
-# Local Development Setup
+# ⚙ Local Development Setup
 
 In this page, there will be instructions on how to locally setup your development environment
 
